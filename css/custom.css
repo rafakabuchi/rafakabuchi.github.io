@@ -1,0 +1,23 @@
+/* Add here all your CSS customizations */
+
+#header.header-floating-icons .header-nav-main nav>ul>li>a:after {
+    background: #c75252;
+}
+
+html .text-color-primary,
+html .text-primary {
+    color: #c75252 !important;
+}
+
+html .bg-color-primary,
+html .bg-primary {
+    background-color: #c75252 !important;
+}
+
+.custom-feature-box:hover .custom-feature-box-icon {
+    background: #c75252;
+}
+
+#header .header-btn-collapse-nav {
+    background: #c75252;
+}
