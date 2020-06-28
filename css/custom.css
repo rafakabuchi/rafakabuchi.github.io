@@ -1,5 +1,8 @@
 /* Add here all your CSS customizations */
 
+
+/* alterações de cores */
+
 #header.header-floating-icons .header-nav-main nav>ul>li>a:after {
     background: #c75252;
 }
