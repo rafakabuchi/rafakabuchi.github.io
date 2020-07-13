@@ -10672,12 +10672,8 @@ html.boxed .slider-container {
     color: #FFF !important;
 }
 
-.social-icons li:hover.social-icons-twitter a {
-    background: #1aa9e1;
-}
-
-.social-icons li:hover.social-icons-facebook a {
-    background: #3b5a9a;
+.social-icons li:hover.social-icons-github a {
+    background: #444d5e;
 }
 
 .social-icons li:hover.social-icons-linkedin a {
