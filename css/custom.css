@@ -24,3 +24,10 @@ html .bg-primary {
 #header .header-btn-collapse-nav {
     background: #c75252;
 }
+
+@media (max-width: 991px) {
+    html .scroll-to-top.hidden-mobile {
+        display: block !important;
+        color: #c75252 !important;
+    }
+}
