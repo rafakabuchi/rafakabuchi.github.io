@@ -45,8 +45,8 @@
     <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
     <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
 
-    <!-- Demo CSS -->
-    <link rel="stylesheet" href="css/demos/demo-resume.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/resume.css">
 
     <!-- Skin CSS -->
     <link rel="stylesheet" href="css/skins/skin-resume.css">
@@ -118,14 +118,14 @@
 
         <div role="main" class="main">
 
-            <section id="about-me" class="section section-no-border section-parallax custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/demos/resume/about-me/bg-v2.jpg">
+            <section id="about-me" class="section section-no-border section-parallax custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/about-me/bg-v2.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 custom-sm-margin-bottom-1">
-                            <img src="img/demos/resume/about-me/rafa-bg-alpha.png" class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4" alt />
+                            <img src="img/about-me/rafa-bg-alpha.png" class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4" alt />
                         </div>
                         <div class="col-lg-6 col-xl-5">
-                            <h1 class="text-color-primary custom-font-size-1">Rafaela Saori Silva Kabuchi</h1>
+                            <h1 class="text-color-primary custom-font-size-1">Rafaela Saori</h1>
                             <p class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1">Front-End Developer / IT</p>
                             <span class="custom-about-me-infos">
 								<span class="custom-text-color-1 text-uppercase">São Paulo Capital</span>
@@ -143,7 +143,7 @@
                             </span>
                         </div>
                         <div class="col-lg-2 col-xl-3 d-none d-lg-block">
-                            <img src="img/demos/resume/about-me/mouse.png" custom-anim class="img-fluid custom-image-pos-1" alt />
+                            <img src="img/about-me/mouse.png" custom-anim class="img-fluid custom-image-pos-1" alt />
                         </div>
                     </div>
                 </div>
@@ -549,160 +549,137 @@
 
 
             <div id="say-hello" class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 p-0">
-                        <section class="section section-no-border bg-color-primary h-100 m-0">
-                            <div class="row justify-content-end m-0">
-                                <div class="col-half-section col-half-section-right mr-3">
-
-                                    <h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Diga Olá</h2>
-                                    <form id="contactForm" class="contact-form custom-form-style" action="php/contact-form.php" method="post">
-                                        <div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
-                                            <strong>Sucesso!</strong> Sua mensagem foi enviada!
-                                        </div>
-                                        <div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
-                                            <strong>Error!</strong> Aconteceu algo de errado.
-                                            <span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
-                                        </div>
-
-                                        <div class="form-content">
-                                            <div class="form-control-custom">
-                                                <input type="text" class="form-control" name="name" placeholder="Seu nome *" data-msg-required="campo obrigatório." id="name" required="" />
-                                            </div>
-                                            <div class="form-control-custom">
-                                                <input type="text" class="form-control" name="subject" placeholder="Assunto *" data-msg-required="campo obrigatório." id="subject" required="" />
-                                            </div>
-                                            <div class="form-control-custom">
-                                                <textarea maxlength="5000" data-msg-required="Por favor, digite a sua mensagem." rows="10" class="form-control" name="message" placeholder="Mensagem*" id="message" required="" aria-required="true"></textarea>
-                                            </div>
-                                            <input type="submit" class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="Enviar" />
-                                        </div>
-                                    </form>
-
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="col-lg-6 p-0">
-                        <section class="section section-no-border h-100 m-0" style="background: url(img/demos/resume/contact/bg-v3.jpg); background-size: cover;">
-                            <div class="row m-0">
-                                <div class="col-half-section col-half-section-left ml-3">
-                                    <a href="rkabuchi@gmail.com" class="text-decoration-none">
-                                        <span class="feature-box custom-feature-box align-items-center mb-4">
+                <div class="col-lg-12 p-0">
+                    <section class="section section-no-border h-100 m-0" style="background: url(img/contact/bg-v3.jpg); background-size: cover;">
+                        <div class="row justify-content-center m-0">
+                            <div class="col-half-section col-half-section-left ml-3">
+                                <a href="mailto:rkabuchi@gmail.com" class="text-decoration-none">
+                                    <span class="feature-box custom-feature-box align-items-center mb-4">
 											<span class="custom-feature-box-icon">
-												<i class="icon-envelope icons text-color-light"></i>
+												<i class="fas fa-at icons text-color-light"></i>
 											</span>
-                                        <span class="feature-box-info">
+                                    <span class="feature-box-info">
 												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Email</span>
-                                        <strong class="font-weight-light text-color-light custom-opacity-effect-1">rkabuchi@gmail.com</strong>
-                                        </span>
-                                        </span>
-                                    </a>
-                                    <a href="tel:+5511977007770" class="text-decoration-none">
-                                        <span class="feature-box custom-feature-box align-items-center mb-4">
+                                    <strong class="font-weight-light text-color-light custom-opacity-effect-1">rkabuchi@gmail.com</strong>
+                                    </span>
+                                    </span>
+                                </a>
+                                <a href="tel:+5511977007770" class="text-decoration-none">
+                                    <span class="feature-box custom-feature-box align-items-center mb-4">
 											<span class="custom-feature-box-icon">
-												<i class="icon-phone icons text-color-light"></i>
+												<i class="fas fa-phone icons text-color-light"></i>
 											</span>
-                                        <span class="feature-box-info">
+                                    <span class="feature-box-info">
 												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Celular</span>
-                                        <strong class="font-weight-light text-color-light custom-opacity-effect-1">+55 11 977 007 770</strong>
-                                        </span>
-                                        </span>
-                                    </a>
-                                    <a href="https://github.com/rafakabuchi" class="text-decoration-none">
-                                        <span class="feature-box custom-feature-box align-items-center mb-4">
+                                    <strong class="font-weight-light text-color-light custom-opacity-effect-1">+55 11 977 007 770</strong>
+                                    </span>
+                                    </span>
+                                </a>
+                                <a href="https://msng.link/o/?SaoriKabuchi=tg" target="_blank" class="text-decoration-none">
+                                    <span class="feature-box custom-feature-box align-items-center mb-4">
 											<span class="custom-feature-box-icon">
-												<i class="icon-social-github icons text-color-light"></i>
+												<i class="fas fa-paper-plane icons text-color-light"></i>
 											</span>
-                                        <span class="feature-box-info">
+                                    <span class="feature-box-info">
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Telegram</span>
+                                    <strong class="font-weight-light text-color-light custom-opacity-effect-1">@SaoriKabuchi</strong>
+                                    </span>
+                                    </span>
+                                </a>
+                                <a href="https://github.com/rafakabuchi" target="_blank" class="text-decoration-none">
+                                    <span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="fab fa-github icons text-color-light"></i>
+											</span>
+                                    <span class="feature-box-info">
 												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">GitHub</span>
-                                        <strong class="font-weight-light text-color-light custom-opacity-effect-1">RafaKabuchi</strong>
-                                        </span>
-                                        </span>
-                                    </a>
+                                    <strong class="font-weight-light text-color-light custom-opacity-effect-1">RafaKabuchi</strong>
+                                    </span>
+                                    </span>
+                                </a>
 
-                                    <a href="https://www.linkedin.com/in/rafaelasaori/" class="text-decoration-none">
-                                        <span class="feature-box custom-feature-box align-items-center mb-4">
+                                <a href="https://www.linkedin.com/in/rafaelasaori/" target="_blank" class="text-decoration-none">
+                                    <span class="feature-box custom-feature-box align-items-center mb-4">
 											<span class="custom-feature-box-icon">
-												<i class="icon-social-linkedin icons text-color-light"></i>
+												<i class="fab fa-linkedin-in icons text-color-light"></i>
 											</span>
-                                        <span class="feature-box-info">
+                                    <span class="feature-box-info">
 											<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">LinkedIn</span>
-                                        <strong class="font-weight-light text-color-light custom-opacity-effect-1">Rafaela Saori</strong>
-                                        </span>
-                                        </span>
-                                    </a>
+                                    <strong class="font-weight-light text-color-light custom-opacity-effect-1">Rafaela Saori</strong>
+                                    </span>
+                                    </span>
+                                </a>
 
-                                    <a href="https://www.youtube.com/watch?v=aMwmj09J0oE&t=14s" class="text-decoration-none">
-                                        <span class="feature-box custom-feature-box align-items-center mb-4">
+                                <a href="https://www.youtube.com/watch?v=aMwmj09J0oE&t=14s" target="_blank" class="text-decoration-none">
+                                    <span class="feature-box custom-feature-box align-items-center mb-4">
 											<span class="custom-feature-box-icon">
-												<i class="icon-social-youtube icons text-color-light"></i>
+												<i class="fab fa-youtube icons text-color-light"></i>
 											</span>
-                                        <span class="feature-box-info">
+                                    <span class="feature-box-info">
 											<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Youtube</span>
-                                        <strong class="font-weight-light text-color-light custom-opacity-effect-1">DevsCansados<br>Talk Show Rafaela Saori</strong>
-                                        </span>
-                                        </span>
-                                    </a>
-                                </div>
+                                    <strong class="font-weight-light text-color-light custom-opacity-effect-1">DevsCansados<br>Talk Show Rafaela Saori</strong>
+                                    </span>
+                                    </span>
+                                </a>
                             </div>
-                        </section>
-                    </div>
+                        </div>
+                    </section>
                 </div>
             </div>
+        </div>
 
-            <footer id="footer" class="m-0 p-0">
-                <div class="footer-copyright bg-color-light m-0">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 m-0">
-                                <p class="custom-text-color-2">Rafaela Saori © Copyright 2020. All Rights Reserved.</p>
-                            </div>
+        <footer id="footer" class="m-0 p-0">
+            <div class="footer-copyright bg-color-light m-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 m-0">
+                            <p class="custom-text-color-2">Rafaela Saori © Copyright 2020. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
+    </div>
 
-        <!-- Vendor -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-        <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-        <script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
-        <script src="vendor/popper/umd/popper.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-        <script src="vendor/common/common.min.js"></script>
-        <script src="vendor/jquery.validation/jquery.validate.min.js"></script>
-        <script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-        <script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
-        <script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-        <script src="vendor/isotope/jquery.isotope.min.js"></script>
-        <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-        <script src="vendor/vide/jquery.vide.min.js"></script>
-        <script src="vendor/vivus/vivus.min.js"></script>
+    <!-- Vendor -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+    <script src="vendor/popper/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/common/common.min.js"></script>
+    <script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+    <script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+    <script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+    <script src="vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/vide/jquery.vide.min.js"></script>
+    <script src="vendor/vivus/vivus.min.js"></script>
 
-        <!-- Theme Base, Components and Settings -->
-        <script src="js/theme.js"></script>
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
 
-        <!-- Current Page Vendor and Views -->
-        <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-        <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- Current Page Vendor and Views -->
+    <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
-        <!-- Current Page Vendor and Views -->
-        <script src="js/views/view.contact.js"></script>
+    <!-- Current Page Vendor and Views -->
+    <script src="js/views/view.contact.js"></script>
 
-        <!-- Demo -->
-        <script src="js/demos/demo-resume.js"></script>
+    <!-- ResumeJS -->
+    <script src="js/resume.js"></script>
 
-        <!-- Theme Custom -->
-        <script src="js/custom.js"></script>
+    <!-- Theme Custom -->
+    <script src="js/custom.js"></script>
 
-        <!-- Theme Initialization Files -->
-        <script src="js/theme.init.js"></script>
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
 
 
-        <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
