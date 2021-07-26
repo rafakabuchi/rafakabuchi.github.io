@@ -4,31 +4,31 @@
 /* alterações de cores */
 
 #header.header-floating-icons .header-nav-main nav>ul>li>a:after {
-    background: #c75252;
+    background: #57C6B8;
 }
 
 html .text-color-primary,
 html .text-primary {
-    color: #c75252 !important;
+    color: #57C6B8!important;
 }
 
 html .bg-color-primary,
 html .bg-primary {
-    background-color: #c75252 !important;
+    background-color: #57C6B8!important;
 }
 
 .custom-feature-box:hover .custom-feature-box-icon {
-    background: #c75252;
+    background: #57C6B8;
 }
 
 #header .header-btn-collapse-nav {
-    background: #c75252;
+    background: #57C6B8;
 }
 
 @media (max-width: 991px) {
     html .scroll-to-top.hidden-mobile {
         display: block !important;
-        color: #c75252 !important;
+        color: #57C6B8!important;
     }
 }
 
