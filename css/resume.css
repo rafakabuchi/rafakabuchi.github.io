@@ -1176,5 +1176,9 @@ section.custom-timeline .timeline-box .experience-info .company>span {
 }
 
 .link {
+<<<<<<< HEAD
     color: #57C6B8
+=======
+    color: red
+>>>>>>> 1809c0996bb0a90dd30031d878ec807bde7c4815
 }
